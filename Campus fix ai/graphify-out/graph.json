@@ -1,0 +1,253 @@
+{
+  "version": "1.0.0",
+  "generator": "Graphify-CampusFix",
+  "statistics": {
+    "total_nodes": 13,
+    "total_edges": 6,
+    "incident_reports": 3,
+    "building_clusters": 3,
+    "hotspot_building": "Main Library"
+  },
+  "nodes": [
+    {
+      "id": "cat_plumbing",
+      "label": "\ud83d\udcc1 Plumbing",
+      "group": "category",
+      "color": "#06b6d4",
+      "shape": "diamond",
+      "size": 24,
+      "font": {
+        "color": "#0f172a",
+        "size": 13,
+        "bold": true
+      }
+    },
+    {
+      "id": "cat_electrical",
+      "label": "\ud83d\udcc1 Electrical",
+      "group": "category",
+      "color": "#eab308",
+      "shape": "diamond",
+      "size": 24,
+      "font": {
+        "color": "#0f172a",
+        "size": 13,
+        "bold": true
+      }
+    },
+    {
+      "id": "cat_cleaning",
+      "label": "\ud83d\udcc1 Cleaning",
+      "group": "category",
+      "color": "#14b8a6",
+      "shape": "diamond",
+      "size": 24,
+      "font": {
+        "color": "#0f172a",
+        "size": 13,
+        "bold": true
+      }
+    },
+    {
+      "id": "cat_infrastructure",
+      "label": "\ud83d\udcc1 Infrastructure",
+      "group": "category",
+      "color": "#78716c",
+      "shape": "diamond",
+      "size": 24,
+      "font": {
+        "color": "#0f172a",
+        "size": 13,
+        "bold": true
+      }
+    },
+    {
+      "id": "cat_furniture",
+      "label": "\ud83d\udcc1 Furniture",
+      "group": "category",
+      "color": "#6366f1",
+      "shape": "diamond",
+      "size": 24,
+      "font": {
+        "color": "#0f172a",
+        "size": 13,
+        "bold": true
+      }
+    },
+    {
+      "id": "cat_safety",
+      "label": "\ud83d\udcc1 Safety",
+      "group": "category",
+      "color": "#f43f5e",
+      "shape": "diamond",
+      "size": 24,
+      "font": {
+        "color": "#0f172a",
+        "size": 13,
+        "bold": true
+      }
+    },
+    {
+      "id": "cat_other",
+      "label": "\ud83d\udcc1 Other",
+      "group": "category",
+      "color": "#94a3b8",
+      "shape": "diamond",
+      "size": 24,
+      "font": {
+        "color": "#0f172a",
+        "size": 13,
+        "bold": true
+      }
+    },
+    {
+      "id": "rep-003",
+      "label": "#rep-003: Broken Chair Armrest i...",
+      "title": "<b>Broken Chair Armrest in Study Pod</b><br/>Status: Assigned<br/>Priority: Low<br/>Location: Main Library, 4th Floor Study Pod B",
+      "group": "report",
+      "color": "#3b82f6",
+      "shape": "dot",
+      "size": 13,
+      "data": {
+        "id": "rep-003",
+        "title": "Broken Chair Armrest in Study Pod",
+        "priority": "Low",
+        "category": "Furniture",
+        "location": "Main Library, 4th Floor Study Pod B",
+        "status": "Assigned",
+        "action": "Tag chair for surplus or swap replacement armrest during weekend rounds."
+      }
+    },
+    {
+      "id": "loc_main_library",
+      "label": "\ud83c\udfe2 Main Library",
+      "group": "location",
+      "color": "#4f46e5",
+      "shape": "box",
+      "size": 22,
+      "font": {
+        "color": "#ffffff",
+        "face": "system-ui"
+      }
+    },
+    {
+      "id": "rep-002",
+      "label": "#rep-002: Exposed Ceiling Wiring...",
+      "title": "<b>Exposed Ceiling Wiring Near Room 304</b><br/>Status: Submitted<br/>Priority: Urgent<br/>Location: Engineering Building, 3rd Floor East Wing",
+      "group": "report",
+      "color": "#ef4444",
+      "shape": "dot",
+      "size": 20,
+      "data": {
+        "id": "rep-002",
+        "title": "Exposed Ceiling Wiring Near Room 304",
+        "priority": "Urgent",
+        "category": "Electrical",
+        "location": "Engineering Building, 3rd Floor East Wing",
+        "status": "Submitted",
+        "action": "Lock out circuit breaker 3B and dispatch certified electrician."
+      }
+    },
+    {
+      "id": "loc_engineering_building",
+      "label": "\ud83c\udfe2 Engineering Building",
+      "group": "location",
+      "color": "#4f46e5",
+      "shape": "box",
+      "size": 22,
+      "font": {
+        "color": "#ffffff",
+        "face": "system-ui"
+      }
+    },
+    {
+      "id": "rep-001",
+      "label": "#rep-001: Water Overflow from Re...",
+      "title": "<b>Water Overflow from Restroom Sink</b><br/>Status: In Progress<br/>Priority: High<br/>Location: Science Hall, 2nd Floor Men's Restroom",
+      "group": "report",
+      "color": "#f97316",
+      "shape": "dot",
+      "size": 16,
+      "data": {
+        "id": "rep-001",
+        "title": "Water Overflow from Restroom Sink",
+        "priority": "High",
+        "category": "Plumbing",
+        "location": "Science Hall, 2nd Floor Men's Restroom",
+        "status": "In Progress",
+        "action": "Shut off local supply valve and deploy wet-vac immediately."
+      }
+    },
+    {
+      "id": "loc_science_hall",
+      "label": "\ud83c\udfe2 Science Hall",
+      "group": "location",
+      "color": "#4f46e5",
+      "shape": "box",
+      "size": 22,
+      "font": {
+        "color": "#ffffff",
+        "face": "system-ui"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "rep-003",
+      "to": "loc_main_library",
+      "label": "LOCATED_IN",
+      "arrows": "to",
+      "color": {
+        "color": "#cbd5e1"
+      }
+    },
+    {
+      "from": "rep-003",
+      "to": "cat_furniture",
+      "label": "IS_A",
+      "arrows": "to",
+      "color": {
+        "color": "#6366f1",
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "rep-002",
+      "to": "loc_engineering_building",
+      "label": "LOCATED_IN",
+      "arrows": "to",
+      "color": {
+        "color": "#cbd5e1"
+      }
+    },
+    {
+      "from": "rep-002",
+      "to": "cat_electrical",
+      "label": "IS_A",
+      "arrows": "to",
+      "color": {
+        "color": "#eab308",
+        "opacity": 0.6
+      }
+    },
+    {
+      "from": "rep-001",
+      "to": "loc_science_hall",
+      "label": "LOCATED_IN",
+      "arrows": "to",
+      "color": {
+        "color": "#cbd5e1"
+      }
+    },
+    {
+      "from": "rep-001",
+      "to": "cat_plumbing",
+      "label": "IS_A",
+      "arrows": "to",
+      "color": {
+        "color": "#06b6d4",
+        "opacity": 0.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "rep-001",
+    "created_at": "2026-10-22 09:30:00",
+    "user_description": "Water overflowing from 2nd floor men's restroom sink onto the tile hallway.",
+    "user_location": "Science Hall, 2nd Floor Men's Restroom",
+    "status": "In Progress",
+    "assigned_to": "Carlos M. (Plumbing Lead)",
+    "staff_notes": "Main shutoff isolated. Drain line augered.",
+    "ai_analysis": {
+      "title": "Water Overflow from Restroom Sink",
+      "category": "Plumbing",
+      "priority": "High",
+      "location": "Science Hall, 2nd Floor Men's Restroom",
+      "description": "Report of sink water overflowing into hallway tiles creating slipping hazards.",
+      "observations": [
+        "Water actively spilling onto floor",
+        "Located near Science Hall 2nd floor restroom"
+      ],
+      "safety_note": "Slip and fall hazard; possible water intrusion into adjacent labs.",
+      "recommended_action": "Shut off local supply valve and deploy wet-vac immediately.",
+      "uncertainty": "Exact source of blockage unknown."
+    }
+  },
+  {
+    "id": "rep-002",
+    "created_at": "2026-10-22 10:15:00",
+    "user_description": "Exposed frayed wires dangling near ceiling light outside Room 304.",
+    "user_location": "Engineering Building, 3rd Floor East Wing",
+    "status": "Submitted",
+    "assigned_to": null,
+    "staff_notes": null,
+    "ai_analysis": {
+      "title": "Exposed Ceiling Wiring Near Room 304",
+      "category": "Electrical",
+      "priority": "Urgent",
+      "location": "Engineering Building, 3rd Floor East Wing",
+      "description": "Frayed live or de-energized wiring hanging from ceiling grid in high pedestrian traffic corridor.",
+      "observations": [
+        "Dangling wiring",
+        "Proximity to classroom doorway 304"
+      ],
+      "safety_note": "Potential electrocution and electrical fire danger. Cordon off corridor immediately.",
+      "recommended_action": "Lock out circuit breaker 3B and dispatch certified electrician.",
+      "uncertainty": "Cannot verify voltage or energization state from report."
+    }
+  },
+  {
+    "id": "rep-003",
+    "created_at": "2026-10-22 11:00:00",
+    "user_description": "Study desk chair armrest snapped off in library quiet zone.",
+    "user_location": "Main Library, 4th Floor Study Pod B",
+    "status": "Assigned",
+    "assigned_to": "Facilities Custodial Team B",
+    "staff_notes": "Replacement chair placed; broken chair moved to storage.",
+    "ai_analysis": {
+      "title": "Broken Chair Armrest in Study Pod",
+      "category": "Furniture",
+      "priority": "Low",
+      "location": "Main Library, 4th Floor Study Pod B",
+      "description": "Ergonomic chair missing left armrest; jagged plastic edge exposed.",
+      "observations": [
+        "Detached armrest",
+        "Located at Study Pod B"
+      ],
+      "safety_note": "Minor scrape risk on exposed plastic edge.",
+      "recommended_action": "Tag chair for surplus or swap replacement armrest during weekend rounds.",
+      "uncertainty": "Chair inventory model number not provided."
+    }
+  },
+  {
+    "id": "rep-004",
+    "created_at": "2026-10-22 11:45:00",
+    "user_description": "Sticky soda spill and crushed coffee cups covering the center table in student center.",
+    "user_location": "Student Union, Ground Floor Lounge",
+    "status": "Submitted",
+    "assigned_to": null,
+    "staff_notes": null,
+    "ai_analysis": {
+      "title": "Beverage Spill on Lounge Tables",
+      "category": "Cleaning",
+      "priority": "Low",
+      "location": "Student Union, Ground Floor Lounge",
+      "description": "Beverage spillage and paper debris on common seating tables.",
+      "observations": [
+        "Liquid residue on tabletop",
+        "Food packaging litter present"
+      ],
+      "safety_note": "Minor slipping risk if residue drips to vinyl floor.",
+      "recommended_action": "Route request to afternoon custodial sweep crew with surface sanitizer.",
+      "uncertainty": "None"
+    }
+  },
+  {
+    "id": "rep-005",
+    "created_at": "2026-10-22 12:20:00",
+    "user_description": "The heavy fire door to the east stairwell won't latch shut automatically.",
+    "user_location": "Humanities Hall, Stairwell C",
+    "status": "In Review",
+    "assigned_to": "Fire Marshal & Safety Inspector",
+    "staff_notes": "Inspection scheduled for 2:00 PM.",
+    "ai_analysis": {
+      "title": "Fire Door Self-Closing Mechanism Failure",
+      "category": "Safety",
+      "priority": "High",
+      "location": "Humanities Hall, Stairwell C",
+      "description": "Emergency exit stairwell fire door fails to close and latch autonomously.",
+      "observations": [
+        "Door closer hydraulic arm lacks sufficient tension",
+        "Door remains ajar by 3 inches"
+      ],
+      "safety_note": "Violation of NFPA compartmentation standards; risk of smoke migration in a fire.",
+      "recommended_action": "Adjust closer spring tension or replace pneumatic arm immediately.",
+      "uncertainty": "Hardware make and series not visible from report."
+    }
+  }
+]
